@@ -31,3 +31,8 @@ node default {
   
   notify { "This is the default message from the production environment": }
 }
+
+node 'bforde2.puppetlabs.vm' {
+# comment this out when done with the exercise
+notify { "This will only be enforced on the Linux container.": }
+}
