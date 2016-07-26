@@ -29,5 +29,5 @@ node default {
   # example code for the classroom
   include examples::puppetize
   
-  notify { "Hello from Puppetizing Infrastructure!": }
+  notify { "Hello from Puppetizing Infrastructure! This came from the site manifest.": }
 }
