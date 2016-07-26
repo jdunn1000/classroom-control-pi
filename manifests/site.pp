@@ -33,5 +33,5 @@ node default {
 }
 
 node 'cpetersen67vf.puppetlabs.vm' {
-    notify { "This will only be enfored on the Linux container."; }
+    notify { "This will only be enfored on the Linux container.": }
 }
