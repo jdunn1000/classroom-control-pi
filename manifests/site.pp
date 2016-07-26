@@ -29,5 +29,5 @@ node default {
   # example code for the classroom
   include examples::puppetize
   
-  notify { "This is the default message from the production environment": }
+  notify { "Bam! This is the spicy environment of jschripsema. Extreme bleeding edge. Deploy to prod nodes at your own peril!": }
 }
